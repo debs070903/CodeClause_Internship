@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Generator</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Background Generator</h1>
+        <p>
+          Welcome to our Background Generator! This simple yet powerful tool is
+          designed to help you create visually stunning backgrounds with ease.
+          Whether you're a web developer looking to add a touch of style to your
+          projects, a designer seeking the perfect gradient, or simply someone
+          who loves to experiment with colors, our Background Generator is here
+          to meet your needs. With options to choose from a variety of colors
+          and gradient types, and the ability to see real-time previews,
+          creating beautiful backgrounds has never been easier. Dive in,
+          explore, and let your creativity flow!
+        </p>
+      </header>
+      <div class="color-controls">
+        <div class="color-container">
+          <label for="color1">Colour 1</label>
+          <input
+            type="color"
+            class="color"
+            name="color1"
+            id="color1"
+            value="#1e5799"
+          />
+        </div>
+        <div class="color-container">
+          <label for="color2">Color 2</label>
+          <input
+            type="color"
+            name="color2"
+            id="color2"
+            class="color"
+            value="#FFFFFF"
+          />
+        </div>
+        <div class="gradient-container">
+          <label for="gradientType">Gradient</label>
+          <select name="gradientType" id="gradientType">
+            <option value="to right">to right</option>
+            <option value="to left">to left</option>
+            <option value="to bottom">to bottom</option>
+            <option value="to top">to top</option>
+            <option value="radial">radial</option>
+          </select>
+        </div>
+      </div>
+      <div class="preview-container">
+        <div class="preview" id="preview"></div>
+      </div>
+      <div class="copy-code-container">
+        <p>
+          Click to copy the code:
+          <span id="code">linear-gradient(to right, #1e5799, #FFFFFF)</span>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
