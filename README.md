@@ -15,6 +15,6 @@ Live Demo: https://countdownto0.netlify.app/
 **Music Platform App**
 A platform that allows users to explore and listen to music tracks. The app features a user-friendly interface for browsing music, creating playlists, and managing favorite tracks.
 
-Live Demo: https://yourmuzic.netlify.app/
+Live Demo: https://urmuzic.netlify.app/
 
 Git Repo Moved to: https://github.com/debs070903/CodeClause_Internship_MusicPlatform
